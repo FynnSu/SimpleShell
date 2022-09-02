@@ -36,7 +36,7 @@ int main()
 		return error_invalid_frame_settings();
 	}
 
-	printf("%s\n", "Shell version 3.0 \nCreated March, 2022 by Fynn Schmitt-Ulms (Id: 260844168)");
+	printf("%s\n", "Shell version 3.0 \nCreated March, 2022 by Fynn Schmitt-Ulms");
 	printf("Frame Store Size = %d; Variable Store Size = %d\n\n", FRAMESTORESIZE, VARMEMSIZE);
 	help();
 
