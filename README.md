@@ -1,5 +1,8 @@
 # Simple c shell implementation
 
+
+<img src="https://drive.google.com/uc?export=view&id=1a1NVfwVLRWvevC35_WGokEg4arHjjCL2">
+
 This is an implementation of a basic shell written in c. To run, cd into the directory and run `make`. You can modify shell features by running 
 
 `make mysh varmemsize=10 framesize=18 singlesize=3`
