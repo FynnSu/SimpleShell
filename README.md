@@ -1,6 +1,12 @@
 # Simple c shell implementation
 
-## Features:
+This is an implementation of a basic shell written in c. To run, cd into the directory and run `make`. You can modify shell features by running 
+
+`make mysh varmemsize=10 framesize=18 singlesize=3`
+
+to change the size of the variable store, the size of the frame store, and the size of the single frame. See the Makefile for more details. 
+
+Then running `./mysh` will run the shell.
 
 ## Program Files
 * Makefile: Code for how to correctly compile shell program

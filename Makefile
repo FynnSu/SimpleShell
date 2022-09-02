@@ -1,10 +1,12 @@
 SHELL=/bin/bash
 
-# Default values for varmemsize and framesize if none entered
+# Default values if non entered
+# Size of shell variable store
 ifndef varmemsize
 	varmemsize=10
 endif
 
+# Size of frame store
 ifndef framesize
 	framesize=18
 endif
